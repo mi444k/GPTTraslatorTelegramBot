@@ -25,6 +25,7 @@ multidict==6.0.4
 mypy==1.4.1
 mypy-extensions==1.0.0
 openai==0.27.8
+pi==0.1.2
 polib==1.2.0
 pydantic==2.1.1
 pydantic_core==2.4.0
