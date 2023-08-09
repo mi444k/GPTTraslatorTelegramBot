@@ -1,0 +1,2 @@
+./.venv/bin/python -m l10n compile
+./.venv/bin/python __main__.py

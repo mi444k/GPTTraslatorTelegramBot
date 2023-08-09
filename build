@@ -1,0 +1,4 @@
+echo "Compile languages"
+python -m l10n compile
+echo "Starting bot..."
+python __main__.py
