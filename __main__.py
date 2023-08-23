@@ -44,7 +44,7 @@ async def get_translate(text: str) -> str:
     except:
         pass
 
-    language = languages['de']
+    language = languages[lang]
 
     messages = [f"Translate next texts to {language} in {form} form:"]
     if len(text) > 1500:
