@@ -1,0 +1,4 @@
+echo "Compile languages"
+./.venv/bin/python -m l10n compile
+echo "Starting bot..."
+nohup ./.venv/bin/python __main__.py &
