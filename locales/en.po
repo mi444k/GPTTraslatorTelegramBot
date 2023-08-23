@@ -32,3 +32,6 @@ msgstr "Welcome, *{full_name}*!\n"
 "_DE:U_ - informal\n"
 "\n"
 "By default, the formal form is used."
+
+msgid "translate"
+msgstr "Translating in progress. Please wait..."
