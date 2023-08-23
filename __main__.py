@@ -36,11 +36,11 @@ async def get_translate(text: str) -> str:
     if not lang or lang not in languages:
         lang = 'de' if detect(text) == 'ru' else 'ru'
 
-    form = 'informal'
+    form = 'formal'
     try:
         _ = text.split(' ')[0].split(':')[1].lower()
-        if _ in ['f', 'sie', 'formal', 'o', 'official']:
-            form = 'formal'
+        if _ in ['u', 'du', 'informal', 'н', 'unofficial', 'i']:
+            form = 'informal'
     except:
         pass
 
